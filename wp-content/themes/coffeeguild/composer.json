@@ -1,51 +1,71 @@
 {
-	"name": "understrap/understrap-child",
-	"description": "Basic Child Starter Theme for Understrap",
-	"type": "wordpress-theme",
-	"license": "GPL-3.0",
-	"minimum-stability": "stable",
-	"keywords": [
-		"wordpress",
-		"theme",
-		"bootstrap"
-	],
-	"homepage": "https://github.com/understrap/understrap-child",
-	"authors": [
-		{
-			"name": "Contributors",
-			"homepage": "https://github.com/understrap/understrap-child/contributors.md"
-		}
-	],
-	"require": {
-		"php": ">=5.6"
-	},
-	"require-dev": {
-		"php-parallel-lint/php-parallel-lint": "^1.3.2",
-		"phpcompatibility/phpcompatibility-wp": "^2.1.4",
-		"phpmd/phpmd": "^2.13.0",
-		"phpstan/phpstan": "^1.9.0",
-		"roave/security-advisories": "dev-master",
-		"squizlabs/php_codesniffer": "^3.7.1",
-		"szepeviktor/phpstan-wordpress": "^1.1.3",
-		"wp-coding-standards/wpcs": "^2.3.0",
-		"wptrt/wpthemereview": "^0.2.1"
-	},
-	"scripts": {
-		"php-lint": "@php ./vendor/php-parallel-lint/php-parallel-lint/parallel-lint --exclude vendor --exclude node_modules --exclude dist --exclude .git --exclude .phpstan-cache .",
-		"phpcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -p",
-		"phpcs-ga": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -n --report=checkstyle",
-		"phpcs-fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf",
-		"phpcs-config-set" : "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --config-set installed_paths ../../phpcompatibility/php-compatibility,../../phpcompatibility/phpcompatibility-paragonie,../../phpcompatibility/phpcompatibility-wp,../../wp-coding-standards/wpcs,../../wptrt/wpthemereview",
-		"phpmd": "@php ./vendor/phpmd/phpmd/src/bin/phpmd . ansi phpmd.xml",
-		"phpmd-baseline": "@phpmd -- --generate-baseline",
-		"phpmd-ga": "@php ./vendor/phpmd/phpmd/src/bin/phpmd . github phpmd.xml",
-		"phpstan": "@php ./vendor/phpstan/phpstan/phpstan analyse -a src/phpstan/autoload.php",
-		"phpstan-baseline": "@php ./vendor/phpstan/phpstan/phpstan analyse -a src/phpstan/autoload.php --generate-baseline",
-		"post-install-cmd": "@phpcs-config-set",
-		"post-update-cmd": "@phpcs-config-set"
-	},
-	"support": {
-		"issues": "https://github.com/understrap/understrap/issues",
-		"source": "https://github.com/understrap/understrap"
-	}
+  "name": "roots/sage",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "WordPress starter theme with a modern development workflow",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "QWp6t",
+      "email": "hi@qwp6t.me",
+      "homepage": "https://github.com/qwp6t"
+    },
+    {
+      "name": "Brandon Nifong",
+      "email": "brandon@tendency.me",
+      "homepage": "https://github.com/log1x"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/sage/issues",
+    "forum": "https://discourse.roots.io/"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "roots/acorn": "^2.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.7.1"
+  },
+  "suggest": {
+    "log1x/sage-directives": "A collection of useful Blade directives for WordPress and Sage (^1.0).",
+    "log1x/sage-svg": "A useful SVG directive for inlining SVG's within Blade views (^1.0)."
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "lint": [
+      "phpcs --extensions=php --standard=PSR12 app"
+    ]
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "App\\Providers\\ThemeServiceProvider"
+      ]
+    }
+  }
 }
