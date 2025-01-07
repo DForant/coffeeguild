@@ -18,7 +18,7 @@
 **/xmlrpc.php
 
 # Configuration
-wp-config.php
+**/wp-config.php
 
 # Example themes
 **/wp-content/themes/twenty*/
@@ -46,13 +46,13 @@ wp-config.php
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-#**/wp-content/themes
+**/wp-content/themes
 
 
 
 # Add individual themes
 # Eg: To include the twentytwentyfour theme include the path with the leading !
-!/wp-content/themes/coffeeguild
+**/wp-content/themes/coffeeguild
 
 **/node_modules/
 *.code-workspace
