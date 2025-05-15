@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Coffee guild is a small neighborhood coffeeshop that is looking to build an online presence. They would like to step up their online game with a complete brand and website design.
+The Coffee guild is a small neighborhood coffee shop that is looking to build an online presence. They would like to step up their online game with a complete brand and website design.
 
 ## Client Questionaire
 
