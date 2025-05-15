@@ -1,5 +1,9 @@
 # The Coffee Guild - Brand Identity & Website Brief
 
+## Overview
+
+The Coffee guild is a small neighborhood coffeeshop that is looking to build an online presence. They would like to step up their online game with a complete brand and website design.
+
 ## Client Questionaire
 
 1. Why do you want to have a new website, or have your current site redesigned?
@@ -78,3 +82,13 @@ We'll definitely promote the website on our social media channels (Instagram, Fa
 We aim to provide valuable content on the website, such as blog posts about our coffee origins, brewing tips, and upcoming events. We'll also use social media to engage with our audience and build a community. In-store, we have a loyalty program, and we can promote online engagement through exclusive offers for website visitors or social media followers. Positive customer experiences both online and in-store will be the best driver for referrals.
 
 ## Additional Notes
+
+- They understand the importance of having a solid online presence. 
+- Big emphesis on locals and community.
+- They want to drive sales both online and in store. (online ordering and social media promos)
+- They mentioned catering inquiries. (Integrate this with Online ordering)
+- The owner is very knowledgeable in all things coffee from growing to roasting and blending. Great opportunity for a blog (or even a podcast)
+- Ethics and sustainability came up in a few areas of the brief. We could use a Earthy Green and tan color scheme also promote sustainability in the identify and style.
+- They stressed that they do not want to look like just a page with an online menu. 
+- No stock photos. We need to lock the logo concepts down then make mockup images featuring the logo.
+- They identified thair ideal customer as tech Savvy and they age demographic is an even mix of male and female between 25-55 years old with a slight skew towards the 30-40 year old range
