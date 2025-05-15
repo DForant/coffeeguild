@@ -4,9 +4,10 @@
 
 1. Why do you want to have a new website, or have your current site redesigned?
 
-Honestly, right now we don't have much of an online presence. We're a brick-and-mortar shop that's been relying on foot traffic and word-of-mouth. But Jacksonville is growing, and I know we're missing out on reaching a wider audience and building stronger connections with our regulars. A professional website and brand identity will help us establish credibility, showcase what makes us special, and ultimately drive more business both online and in-store.
+Honestly, right now we don't have much of an online presence. We're a brick-and-mortar shop that's been relying on foot traffic and word-of-mouth. But Jacksonville is growing, and I know we're missing out on reaching a wider audience and building stronger connections with our regulars. A professional website and brand identity will help us establish credibility, showcase what makes us special, and ultimately drive more business both online and in-store. 
 
-2. What will happen if you don’t have a new website, or have your current site redesigned?
+
+1. What will happen if you don’t have a new website, or have your current site redesigned?
 
 If we don't get this done, I worry we'll get left behind. Other coffee shops in the area are stepping up their online game, and we risk appearing outdated and less accessible. We'll continue to rely solely on local foot traffic, limiting our growth potential and our ability to connect with potential customers who might be searching for a great coffee experience online. We'll miss out on opportunities for online orders, catering inquiries, and building a loyal online community.
 
